@@ -38,7 +38,7 @@ pageStateStore.subscribe((val) => {
             else url.searchParams.set(k, val[k]);
         }
         if (timeout !== null) clearTimeout(timeout);
-        timeout = setTimeout(() => goto(url, { replaceState: true, keepFocus: true }), 500);
+        if (window) timeout = setTimeout(() => goto(url, { replaceState: true, keepFocus: true }), 500);
     } catch { }
 })
 
