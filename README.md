@@ -1,1 +1,1 @@
-# svelte-query-param-manager
+# [svelte-query-param-manager](https://iammoonman.github.io/svelte-query-param-manager/)
