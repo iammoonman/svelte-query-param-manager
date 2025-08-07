@@ -1,2 +1,2 @@
 // Reexport your entry components here
-export { queryParamState } from "./QueryParamsStore.svelte.js";
+export { queryParamState, boolOptions, strOptions } from "./QueryParamsStore.svelte.js";
