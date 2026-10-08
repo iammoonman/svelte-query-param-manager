@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { queryParamState, strOptions } from "$lib/QueryParamsStore.svelte.js";
+	import { queryParamState, strOptions } from "#lib/QueryParamsStore.svelte.js";
 
 	let myText = queryParamState("my-text", ...strOptions(""));
 </script>
@@ -18,7 +18,7 @@
 		<pre>
             <code>
                 {`<`}script lang="ts"{`>`}
-                {`  import { queryParamState, strOptions } from "$lib/QueryParamsStore.svelte.js";`}
+                {`  import { queryParamState, strOptions } from "#lib/QueryParamsStore.svelte.js";`}
                 {`  let myText = queryParamState("my-text", ...strOptions(""));`}
                 {`</script>`}
                 {`<input type="text" bind:value={$myText} />`}
